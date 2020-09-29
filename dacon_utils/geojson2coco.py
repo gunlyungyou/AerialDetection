@@ -144,7 +144,7 @@ def geojson2coco(imageroot: str, geojsonpath: str, destfile, difficult='-1'):
 
 if __name__ == '__main__':
 
-    rootfolder = '/home/ubuntu/Dacon/cpt_data/SIA/official'
+    rootfolder = 'D:/jupyter/Data Competition/SIA(DOTA)'
 
     geojson2coco(imageroot=os.path.join(rootfolder, 'train/images'),
                  geojsonpath=os.path.join(rootfolder, 'train/json'),
